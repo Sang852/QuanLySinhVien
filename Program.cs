@@ -1113,6 +1113,9 @@ namespace QuanLySinhVien
                     if (chon == "1")
                     {
                         Login();
+                        Console.WriteLine("Press any key continue...");
+                        Console.ReadKey();
+                        Console.Clear();
                     }
                     else if(chon == "2")
                     {
